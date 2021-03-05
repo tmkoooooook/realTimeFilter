@@ -1,0 +1,46 @@
+a{
+  text-decoration: none;
+  color: #222;
+}
+.realTimeFilter{
+  margin: 20px auto;
+}
+.title-find{
+  width: 800px;
+  margin: 40px auto 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.find{
+  width: 80%;
+}
+.images{
+  width: 730px;
+  height: auto;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px auto;
+}
+.image{
+  width: 300px;
+  height: 250px;
+  padding: 10px 10px 80px 10px;
+  margin: 20px;
+  border: 1px solid #f1f1f1;
+}
+.image > img{
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+.image > p{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.displayNone{
+  display: none;
+}
